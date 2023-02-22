@@ -1,5 +1,6 @@
 import './App.css';
-import Image from './pages/Image';
+import DataGrids from './pages/DataGrids';
+// import Image from './pages/Image';
 // import GridLayout from './pages/GridLayout';
 // import Test1 from './pages/Test1';
 // import Create from './pages/Create';
@@ -14,7 +15,8 @@ function App() {
       {/* <Test /> */}
       {/* <Test1 /> */}
       {/* <GridLayout /> */}
-      <Image />
+      {/* <Image /> */}
+      <DataGrids />
     </div>
   );
 }
