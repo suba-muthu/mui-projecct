@@ -1,5 +1,6 @@
 import './App.css';
-import GridLayout from './pages/GridLayout';
+import Image from './pages/Image';
+// import GridLayout from './pages/GridLayout';
 // import Test1 from './pages/Test1';
 // import Create from './pages/Create';
 // import Notes from './pages/Notes';
@@ -12,7 +13,8 @@ function App() {
       {/* <Notes /> */}
       {/* <Test /> */}
       {/* <Test1 /> */}
-      <GridLayout />
+      {/* <GridLayout /> */}
+      <Image />
     </div>
   );
 }
