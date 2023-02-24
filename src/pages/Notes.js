@@ -1,6 +1,5 @@
 import React from 'react';
-// import AppBar from '@mui/material/AppBar';
-import { Button, Menu, MenuItem, Toolbar, Typography } from '@mui/material';
+import { Button, Menu, MenuItem } from '@mui/material';
 import { useState } from 'react';
 
 export default function Notes() {
@@ -18,21 +17,6 @@ export default function Notes() {
 
   return (
     <div>
-        {/* <AppBar>
-            <Toolbar>
-                <Typography>LOGO</Typography>
-                <Button
-                 variant='contained'
-                 sx={{ marginLeft: "auto" }} 
-                 color='error'
-                >
-                    Login
-                </Button>
-            </Toolbar>
-        </AppBar> */}
-
-        {/* Menu */}
-
         <Button variant="contained" onClick={handleClick}>
             Open Menu
         </Button>
